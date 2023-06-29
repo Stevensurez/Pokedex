@@ -1,0 +1,50 @@
+.encabezado {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  text-align: center;
+  padding: .5%;
+  color: rgb(81, 72, 129);
+  font-size: 100px;
+}
+
+#pokeName {
+    box-sizing: content-box;
+  }
+
+  .Busqueda{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bloque {
+    padding: 5px;
+    }
+
+  button {
+    margin: 10px;
+  }
+
+  input {
+    width: 30%;
+  }
+
+  #app h1, h3{
+    font-size: 15px;
+  }
+
+  #app div {
+    margin: 10px;
+    text-align: center;
+  }
+
+  #app {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: azure;
+  }
